@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import requests
-import os
 from dataclasses import dataclass
 from urllib.parse import urlparse
 from pathlib import Path

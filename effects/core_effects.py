@@ -1,11 +1,11 @@
 import cv2
 import numpy as np
-from ..effect_engine import EffectConfig, AkumaEngine
+from effect_engine import EffectConfig, AkumaEngine
 
 @AkumaEngine.register_effect("akuma_zoom_in")
 def zoom_in_effect(img: np.ndarray, progress: float, config: EffectConfig) -> np.ndarray:
     """Efecto de zoom progresivo centrado"""
-    scale = 1 + progress  # 1x a 2x
+    scale = 1 + progress * 0.2  # 1x a 2x
     h, w = img.shape[:2]
     
     new_width = int(w * scale)
