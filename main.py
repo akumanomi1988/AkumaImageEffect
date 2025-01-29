@@ -22,7 +22,7 @@ def main():
     # Video parameters
     image_src = "test.jpg"  # Path to the input image
     output_path = "presentation_intro.mp4"  # Path for the output video
-    effect = "akuma_zoom_in"  # Effect to be applied
+    effect = "akuma_zoom_out"  # Effect to be applied
     duration = 5.0  # Duration of the video in seconds
     fps = 60  # Frames per second
 

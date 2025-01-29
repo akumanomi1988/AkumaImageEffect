@@ -20,7 +20,7 @@ def zoom_in_effect(img: np.ndarray, progress: float, config: EffectConfig) -> np
 @AkumaEngine.register_effect("akuma_zoom_out")
 def zoom_out_effect(img: np.ndarray, progress: float, config: EffectConfig) -> np.ndarray:
     """Efecto de reducción progresiva con fondo personalizado"""
-    scale = 1 - progress * 0.5  # 1x a 0.5x
+    scale = 1 - progress * 0.2  # 1x a 0.5x
     h, w = img.shape[:2]
     
     resized = cv2.resize(img, (int(w*scale), int(h*scale)), 
