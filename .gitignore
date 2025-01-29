@@ -1,4 +1,6 @@
 .venv*
 .temp*
 *.jpg
-__*
+__pycache__*
+dist*
+*.mp4
