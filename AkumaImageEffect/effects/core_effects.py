@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from effect_engine import EffectConfig, AkumaEngine
+from AkumaImageEffect.effect_engine import EffectConfig, AkumaEngine
 
 @AkumaEngine.register_effect("akuma_zoom_in")
 def zoom_in_effect(img: np.ndarray, progress: float, config: EffectConfig) -> np.ndarray:

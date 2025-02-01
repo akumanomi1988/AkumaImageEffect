@@ -5,8 +5,8 @@ using AkumaEngine.
 """
 
 import cv2
-from effect_engine import AkumaEngine, EffectConfig
-import effects.core_effects  # Automatically imports and registers effects
+from AkumaImageEffect.effect_engine import AkumaEngine, EffectConfig
+import AkumaImageEffect.effects.core_effects  # Automatically imports and registers effects
 
 def main():
     """Main function to generate a video with effects."""

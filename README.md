@@ -17,7 +17,7 @@
 ## Installation 📦
 
 ```bash
-pip install akuma-image-effect
+pip install akumaimageeffect
 ```
 
 ---
@@ -94,7 +94,7 @@ engine = AkumaEngine(config)
 
 ## System Requirements 💻
 
-- **Python**: 3.8+
+- **Python**: 3.10+
 - **FFmpeg**: Required for video processing
 - **Dependencies**:
   - OpenCV (`opencv-python`)
@@ -127,7 +127,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## Support 🆘
 
-For issues or feature requests, please open an issue on the [GitHub repository](https://github.com/akumanomi1988/akuma_image_effect).
+For issues or feature requests, please open an issue on the [GitHub repository](https://github.com/akumanomi1988/AkumaImageEffect).
 
 ---
 
